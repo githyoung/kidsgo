@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1140" width="1200" height="1140">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f8fb5"/><stop offset="1" stop-color="#9bd3e6"/></linearGradient></defs>
+<rect width="1200" height="1140" fill="url(#g)"/>
+<circle cx="562" cy="18" r="115" fill="#000" opacity="0.08"/><circle cx="358" cy="217" r="198" fill="#fff" opacity="0.1"/><circle cx="1160" cy="815" r="233" fill="#000" opacity="0.08"/><circle cx="193" cy="123" r="287" fill="#fff" opacity="0.1"/><circle cx="1174" cy="649" r="319" fill="#000" opacity="0.08"/><circle cx="39" cy="831" r="242" fill="#fff" opacity="0.1"/><path d="M0 820 C 200 683, 420 709, 620 773 S 1000 785, 1200 752 L1200 1140 L0 1140 Z" fill="#000" opacity="0.12"/>
+<text x="600" y="600" font-size="300" text-anchor="middle" dominant-baseline="middle">🏖️</text>
+<text x="600" y="1010" font-size="54" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" font-weight="600" fill="#fff" fill-opacity="0.92" text-anchor="middle">Eagle Rock 海濱公園</text>
+<text x="600" y="1070" font-size="30" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" fill="#fff" fill-opacity="0.7" text-anchor="middle">Capitola · 示意圖（假資料）</text>
+</svg>

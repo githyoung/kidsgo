@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1140" width="1200" height="1140">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e9a23b"/><stop offset="1" stop-color="#f7d78a"/></linearGradient></defs>
+<rect width="1200" height="1140" fill="url(#g)"/>
+<circle cx="839" cy="977" r="237" fill="#000" opacity="0.08"/><circle cx="669" cy="363" r="206" fill="#fff" opacity="0.1"/><circle cx="513" cy="336" r="233" fill="#000" opacity="0.08"/><circle cx="801" cy="580" r="146" fill="#fff" opacity="0.1"/><circle cx="650" cy="883" r="253" fill="#000" opacity="0.08"/><circle cx="515" cy="992" r="319" fill="#fff" opacity="0.1"/><path d="M0 820 C 200 685, 420 762, 620 742 S 1000 732, 1200 741 L1200 1140 L0 1140 Z" fill="#000" opacity="0.12"/>
+<text x="600" y="600" font-size="300" text-anchor="middle" dominant-baseline="middle">🛝</text>
+<text x="600" y="1010" font-size="54" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" font-weight="600" fill="#fff" fill-opacity="0.92" text-anchor="middle">Riverbend 公園遊戲場</text>
+<text x="600" y="1070" font-size="30" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" fill="#fff" fill-opacity="0.7" text-anchor="middle">Fremont · 示意圖（假資料）</text>
+</svg>

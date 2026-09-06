@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="font-jakarta-var">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#ffffff"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/css/site.css">
+<title>關於 nextplace</title>
+</head>
+<body>
+<div>
+  <div data-header></div>
+  <main class="mx-auto max-w-[760px] px-6 pb-24 pt-10 sm:px-10">
+    <h1 class="text-[32px] font-semibold" data-i18n="about.title">關於 nextplace</h1>
+    <div class="mt-6 space-y-5 text-[17px] leading-relaxed text-ink">
+      <p>這是一個給住在南灣、家裡有兩歲小朋友的家庭用的「週末去哪裡」小工具。地點都是用「兩歲小孩能不能玩得開心」這個標準挑的：路要短要平、最好有動物或水、要有廁所、停車別太難。</p>
+      <div class="rounded-xl bg-surface p-5">
+        <div class="font-semibold">推薦分數怎麼算</div>
+        <p class="mt-2 text-[15px] text-ink-2">兩歲適合度（權重最大）+ 是否當季 + 和這個週末天氣的搭配 + 車程扣分 + 推車加分。「幫我決定」是依分數平方加權隨機抽，分數高的比較容易被抽到，但不會每次都同一個。</p>
+      </div>
+      <div class="rounded-xl bg-surface p-5">
+        <div class="font-semibold">天氣</div>
+        <p class="mt-2 text-[15px] text-ink-2">首頁會抓 Sunnyvale 這個週末（週六 / 週日）的 Open-Meteo 預報，自動預設「下雨 / 很熱 / 涼爽 / 天氣好」的篩選；每個地點的詳細頁會另外查目的地當地的預報——海邊和山上常常和家裡不一樣。</p>
+      </div>
+      <div class="rounded-xl bg-surface p-5">
+        <div class="font-semibold">資料維護</div>
+        <p class="mt-2 text-[15px] text-ink-2">所有地點都在 <code class="rounded bg-white px-1.5 py-0.5 text-xs">public/data/places.json</code>，多加一筆物件就多一個地方。營業時間和預約規定常常變動，出發前請看官網。</p>
+      </div>
+    </div>
+  </main>
+  <div data-footer></div>
+</div>
+<script src="/assets/js/app.js"></script>
+<script>NP.boot();</script>
+</body>
+</html>

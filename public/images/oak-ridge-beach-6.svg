@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1140" width="1200" height="1140">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f8fb5"/><stop offset="1" stop-color="#9bd3e6"/></linearGradient></defs>
+<rect width="1200" height="1140" fill="url(#g)"/>
+<circle cx="1123" cy="480" r="255" fill="#000" opacity="0.08"/><circle cx="1117" cy="690" r="152" fill="#fff" opacity="0.1"/><circle cx="1051" cy="447" r="252" fill="#000" opacity="0.08"/><circle cx="254" cy="645" r="201" fill="#fff" opacity="0.1"/><circle cx="732" cy="491" r="141" fill="#000" opacity="0.08"/><circle cx="151" cy="415" r="265" fill="#fff" opacity="0.1"/><path d="M0 820 C 200 778, 420 775, 620 757 S 1000 757, 1200 765 L1200 1140 L0 1140 Z" fill="#000" opacity="0.12"/>
+<text x="600" y="600" font-size="300" text-anchor="middle" dominant-baseline="middle">🏖️</text>
+<text x="600" y="1010" font-size="54" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" font-weight="600" fill="#fff" fill-opacity="0.92" text-anchor="middle">Oak Ridge State Beach</text>
+<text x="600" y="1070" font-size="30" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" fill="#fff" fill-opacity="0.7" text-anchor="middle">San Francisco · 示意圖（假資料）</text>
+</svg>

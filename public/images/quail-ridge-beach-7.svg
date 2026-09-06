@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1140" width="1200" height="1140">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f8fb5"/><stop offset="1" stop-color="#9bd3e6"/></linearGradient></defs>
+<rect width="1200" height="1140" fill="url(#g)"/>
+<circle cx="694" cy="466" r="142" fill="#000" opacity="0.08"/><circle cx="476" cy="639" r="201" fill="#fff" opacity="0.1"/><circle cx="1197" cy="199" r="143" fill="#000" opacity="0.08"/><circle cx="925" cy="537" r="173" fill="#fff" opacity="0.1"/><circle cx="48" cy="957" r="318" fill="#000" opacity="0.08"/><circle cx="307" cy="875" r="189" fill="#fff" opacity="0.1"/><path d="M0 820 C 200 723, 420 737, 620 740 S 1000 729, 1200 797 L1200 1140 L0 1140 Z" fill="#000" opacity="0.12"/>
+<text x="600" y="600" font-size="300" text-anchor="middle" dominant-baseline="middle">🏖️</text>
+<text x="600" y="1010" font-size="54" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" font-weight="600" fill="#fff" fill-opacity="0.92" text-anchor="middle">Quail Ridge State Beach</text>
+<text x="600" y="1070" font-size="30" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" fill="#fff" fill-opacity="0.7" text-anchor="middle">San Mateo · 示意圖（假資料）</text>
+</svg>

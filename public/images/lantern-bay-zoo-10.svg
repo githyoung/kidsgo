@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1140" width="1200" height="1140">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a67c1e"/><stop offset="1" stop-color="#e3c46b"/></linearGradient></defs>
+<rect width="1200" height="1140" fill="url(#g)"/>
+<circle cx="741" cy="282" r="113" fill="#000" opacity="0.08"/><circle cx="587" cy="163" r="267" fill="#fff" opacity="0.1"/><circle cx="356" cy="835" r="150" fill="#000" opacity="0.08"/><circle cx="498" cy="829" r="131" fill="#fff" opacity="0.1"/><circle cx="332" cy="150" r="241" fill="#000" opacity="0.08"/><circle cx="6" cy="702" r="288" fill="#fff" opacity="0.1"/><path d="M0 820 C 200 687, 420 703, 620 792 S 1000 736, 1200 746 L1200 1140 L0 1140 Z" fill="#000" opacity="0.12"/>
+<text x="600" y="600" font-size="300" text-anchor="middle" dominant-baseline="middle">🦒</text>
+<text x="600" y="1010" font-size="54" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" font-weight="600" fill="#fff" fill-opacity="0.92" text-anchor="middle">Lantern Bay Wildlife Center</text>
+<text x="600" y="1070" font-size="30" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" fill="#fff" fill-opacity="0.7" text-anchor="middle">Palo Alto · 示意圖（假資料）</text>
+</svg>

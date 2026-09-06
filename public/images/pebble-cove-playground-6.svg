@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1140" width="1200" height="1140">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e9a23b"/><stop offset="1" stop-color="#f7d78a"/></linearGradient></defs>
+<rect width="1200" height="1140" fill="url(#g)"/>
+<circle cx="506" cy="262" r="135" fill="#000" opacity="0.08"/><circle cx="428" cy="830" r="133" fill="#fff" opacity="0.1"/><circle cx="45" cy="287" r="143" fill="#000" opacity="0.08"/><circle cx="190" cy="1140" r="165" fill="#fff" opacity="0.1"/><circle cx="879" cy="48" r="201" fill="#000" opacity="0.08"/><circle cx="494" cy="216" r="98" fill="#fff" opacity="0.1"/><path d="M0 820 C 200 717, 420 748, 620 788 S 1000 780, 1200 800 L1200 1140 L0 1140 Z" fill="#000" opacity="0.12"/>
+<text x="600" y="600" font-size="300" text-anchor="middle" dominant-baseline="middle">🛝</text>
+<text x="600" y="1010" font-size="54" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" font-weight="600" fill="#fff" fill-opacity="0.92" text-anchor="middle">Pebble Cove 戲水公園</text>
+<text x="600" y="1070" font-size="30" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" fill="#fff" fill-opacity="0.7" text-anchor="middle">San Jose · 示意圖（假資料）</text>
+</svg>

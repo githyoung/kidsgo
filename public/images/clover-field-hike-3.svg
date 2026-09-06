@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1140" width="1200" height="1140">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f6b50"/><stop offset="1" stop-color="#8fae7a"/></linearGradient></defs>
+<rect width="1200" height="1140" fill="url(#g)"/>
+<circle cx="778" cy="1059" r="186" fill="#000" opacity="0.08"/><circle cx="1064" cy="1139" r="122" fill="#fff" opacity="0.1"/><circle cx="1192" cy="471" r="213" fill="#000" opacity="0.08"/><circle cx="94" cy="873" r="184" fill="#fff" opacity="0.1"/><circle cx="227" cy="407" r="281" fill="#000" opacity="0.08"/><circle cx="152" cy="760" r="239" fill="#fff" opacity="0.1"/><path d="M0 820 C 200 722, 420 746, 620 799 S 1000 700, 1200 795 L1200 1140 L0 1140 Z" fill="#000" opacity="0.12"/>
+<text x="600" y="600" font-size="300" text-anchor="middle" dominant-baseline="middle">🥾</text>
+<text x="600" y="1010" font-size="54" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" font-weight="600" fill="#fff" fill-opacity="0.92" text-anchor="middle">Clover Field 紅木林</text>
+<text x="600" y="1070" font-size="30" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" fill="#fff" fill-opacity="0.7" text-anchor="middle">Woodside · 示意圖（假資料）</text>
+</svg>

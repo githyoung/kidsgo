@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1140" width="1200" height="1140">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e9a23b"/><stop offset="1" stop-color="#f7d78a"/></linearGradient></defs>
+<rect width="1200" height="1140" fill="url(#g)"/>
+<circle cx="666" cy="907" r="270" fill="#000" opacity="0.08"/><circle cx="1113" cy="999" r="114" fill="#fff" opacity="0.1"/><circle cx="166" cy="69" r="257" fill="#000" opacity="0.08"/><circle cx="319" cy="330" r="249" fill="#fff" opacity="0.1"/><circle cx="353" cy="2" r="214" fill="#000" opacity="0.08"/><circle cx="523" cy="691" r="266" fill="#fff" opacity="0.1"/><path d="M0 820 C 200 726, 420 706, 620 773 S 1000 703, 1200 802 L1200 1140 L0 1140 Z" fill="#000" opacity="0.12"/>
+<text x="600" y="600" font-size="300" text-anchor="middle" dominant-baseline="middle">🛝</text>
+<text x="600" y="1010" font-size="54" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" font-weight="600" fill="#fff" fill-opacity="0.92" text-anchor="middle">Redtail Canyon 共融遊戲場</text>
+<text x="600" y="1070" font-size="30" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" fill="#fff" fill-opacity="0.7" text-anchor="middle">San Jose · 示意圖（假資料）</text>
+</svg>

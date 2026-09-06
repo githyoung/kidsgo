@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1140" width="1200" height="1140">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f8fb5"/><stop offset="1" stop-color="#9bd3e6"/></linearGradient></defs>
+<rect width="1200" height="1140" fill="url(#g)"/>
+<circle cx="644" cy="121" r="246" fill="#000" opacity="0.08"/><circle cx="1114" cy="564" r="255" fill="#fff" opacity="0.1"/><circle cx="12" cy="118" r="213" fill="#000" opacity="0.08"/><circle cx="108" cy="429" r="93" fill="#fff" opacity="0.1"/><circle cx="537" cy="955" r="111" fill="#000" opacity="0.08"/><circle cx="526" cy="898" r="131" fill="#fff" opacity="0.1"/><path d="M0 820 C 200 707, 420 737, 620 775 S 1000 706, 1200 808 L1200 1140 L0 1140 Z" fill="#000" opacity="0.12"/>
+<text x="600" y="600" font-size="300" text-anchor="middle" dominant-baseline="middle">🏖️</text>
+<text x="600" y="1010" font-size="54" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" font-weight="600" fill="#fff" fill-opacity="0.92" text-anchor="middle">Quail Ridge 卵石灘</text>
+<text x="600" y="1070" font-size="30" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" fill="#fff" fill-opacity="0.7" text-anchor="middle">Alameda · 示意圖（假資料）</text>
+</svg>

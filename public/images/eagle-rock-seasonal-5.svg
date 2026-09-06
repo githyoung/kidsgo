@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1140" width="1200" height="1140">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9682f"/><stop offset="1" stop-color="#f6b48a"/></linearGradient></defs>
+<rect width="1200" height="1140" fill="url(#g)"/>
+<circle cx="832" cy="685" r="190" fill="#000" opacity="0.08"/><circle cx="567" cy="268" r="290" fill="#fff" opacity="0.1"/><circle cx="335" cy="25" r="201" fill="#000" opacity="0.08"/><circle cx="207" cy="865" r="213" fill="#fff" opacity="0.1"/><circle cx="573" cy="824" r="305" fill="#000" opacity="0.08"/><circle cx="630" cy="775" r="283" fill="#fff" opacity="0.1"/><path d="M0 820 C 200 773, 420 709, 620 782 S 1000 762, 1200 776 L1200 1140 L0 1140 Z" fill="#000" opacity="0.12"/>
+<text x="600" y="600" font-size="300" text-anchor="middle" dominant-baseline="middle">🎃</text>
+<text x="600" y="1010" font-size="54" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" font-weight="600" fill="#fff" fill-opacity="0.92" text-anchor="middle">Eagle Rock 燈節</text>
+<text x="600" y="1070" font-size="30" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" fill="#fff" fill-opacity="0.7" text-anchor="middle">Half Moon Bay · 示意圖（假資料）</text>
+</svg>

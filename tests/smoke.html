@@ -1,0 +1,71 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>smoke</title></head><body>
+<pre id="out"></pre>
+<iframe id="f" src="/zh" style="width:1400px;height:900px"></iframe>
+<script>
+const out = document.getElementById('out'); const log = (m) => (out.textContent += m + "\n");
+const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+const f = document.getElementById('f');
+f.addEventListener('load', async () => {
+  const w = f.contentWindow, d = f.contentDocument;
+  w.addEventListener('error', e => log('JS ERROR: ' + e.message));
+  await sleep(500);
+  const $ = (s) => d.querySelector(s), $$ = (s) => [...d.querySelectorAll(s)];
+  const heading = () => $('[data-heading]').textContent;
+  log('T1 heading: ' + heading());
+  log('T1 cards: ' + $$('[data-grid] a.fade-up').length);
+  // 分類
+  $('[data-cat="beach"]').click(); await sleep(50); log('T2 beach heading: ' + heading());
+  $('[data-cat="all"]').click(); await sleep(50);
+  // 年齡
+  $('[data-age="school"]').click(); await sleep(50); log('T3 school heading: ' + heading() + ' age=' + w.localStorage.getItem('nextplace:age'));
+  $('[data-age="toddler"]').click(); await sleep(50);
+  // 排序
+  $('[data-sort-key="near"]').click(); await sleep(50);
+  const first = $$('[data-grid] a.fade-up p')[0].textContent; log('T4 near first: ' + first);
+  $('[data-sort-key="rec"]').click(); await sleep(50);
+  // 篩選 modal
+  $('[data-open-filters]').click(); await sleep(50);
+  const modal = () => $('[role="dialog"]');
+  log('T5 filter modal open: ' + !!modal() + ' title=' + modal()?.querySelector('[data-modal-title]')?.textContent);
+  const range = modal().querySelector('[data-drive]'); range.value = 150; range.dispatchEvent(new w.Event('input', {bubbles:true})); await sleep(50);
+  log('T5 drive desc: ' + modal().querySelector('[data-drive-desc]').textContent + ' | apply=' + modal().querySelector('[data-apply]').textContent);
+  modal().querySelector('[data-toggle="freeOnly"]').click(); await sleep(50);
+  log('T5 freeOnly toggled: ' + modal().querySelector('[data-toggle="freeOnly"]').getAttribute('aria-checked') + ' apply=' + modal().querySelector('[data-apply]').textContent);
+  modal().querySelector('[data-mood="rainy"]').click(); await sleep(50);
+  log('T5 rainy apply=' + modal().querySelector('[data-apply]').textContent);
+  modal().querySelector('[data-apply]').click(); await sleep(100);
+  log('T5 after apply heading: ' + heading() + ' count badge=' + $('[data-filter-count]').textContent + ' modal closed=' + !modal());
+  log('T5 all free? ' + $$('[data-grid] a.fade-up .font-semibold').filter(e=>e.parentElement.tagName==='P').every(e => e.textContent === '免費'));
+  // 幫我決定
+  $('[data-decide]').click(); await sleep(1800);
+  log('T6 pick modal title: ' + modal()?.querySelector('[data-modal-title]')?.textContent + ' | name=' + modal()?.querySelector('h3')?.textContent + ' | reasons=' + modal()?.querySelectorAll('li').length);
+  modal().querySelector('[data-again]').click(); await sleep(1800);
+  log('T6 again: ' + modal()?.querySelector('[data-modal-title]')?.textContent + ' | name=' + modal()?.querySelector('h3')?.textContent);
+  modal().querySelector('[data-close]').click(); await sleep(50); log('T6 closed=' + !modal());
+  // 清除篩選：直接重設
+  $('[data-open-filters]').click(); await sleep(50); modal().querySelector('[data-clear-all]').click(); await sleep(50); modal().querySelector('[data-apply]').click(); await sleep(100);
+  log('T7 after clear heading: ' + heading() + ' badge="' + $('[data-filter-count]').textContent + '"');
+  // 收藏
+  const heart = $('[data-grid] [data-heart]'); const slug = heart.dataset.heart; heart.click(); await sleep(50);
+  log('T8 fav stored: ' + w.localStorage.getItem('nextplace:favorites') + ' pressed=' + heart.getAttribute('aria-pressed') + ' tab=' + $('[data-favs]').textContent);
+  $('[data-favs]').click(); await sleep(50); log('T8 favs heading: ' + heading() + ' cards=' + $$('[data-grid] a.fade-up').length + ' share btn=' + !!$('[data-share-favs]'));
+  $('[data-grid] [data-heart]').click(); await sleep(50); log('T8 unfav -> ' + heading() + ' empty=' + !!$('[data-grid] .rounded-2xl'));
+  $('[data-cat="all"]').click(); await sleep(50);
+  // 出發地
+  $('[data-location]').click(); await sleep(50); log('T9 location modal: ' + modal()?.querySelector('[data-modal-title]')?.textContent + ' anchors=' + modal()?.querySelectorAll('[data-anchor]').length);
+  modal().querySelector('[data-anchor="santa-cruz"]').click(); await sleep(100);
+  log('T9 home label: ' + $('[data-home-label]').textContent + ' | first card line: ' + $$('[data-grid] a.fade-up p')[0].textContent + ' | weather: ' + $('[data-weather]').textContent.slice(0,80));
+  log('T9 heading: ' + heading());
+  $('[data-location]').click(); await sleep(50); modal().querySelector('[data-anchor="sunnyvale"]').click(); await sleep(100);
+  // 語言選單
+  $('[data-lang-btn]').click(); await sleep(50); log('T10 lang menu: ' + $$('[role="menu"] a').map(a => a.getAttribute('href')).join(','));
+  // 詳情頁
+  f.src = '/zh/place/' + slug;
+  f.addEventListener('load', async () => {
+    await sleep(500); const d2 = f.contentDocument;
+    log('T11 detail h1: ' + d2.querySelector('h1').textContent + ' | similar=' + d2.querySelectorAll('section a.fade-up').length + ' | fit boxes=' + d2.querySelectorAll('.grid-cols-4 .font-semibold').length + ' | title=' + d2.title);
+    f.src = '/en';
+    f.addEventListener('load', async () => { await sleep(500); const d3 = f.contentDocument; log('T12 en heading: ' + d3.querySelector('[data-heading]').textContent + ' | lang=' + d3.documentElement.lang + ' | title=' + d3.title); log('DONE'); }, { once: true });
+  }, { once: true });
+}, { once: true });
+</script></body></html>

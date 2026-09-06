@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1140" width="1200" height="1140">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9682f"/><stop offset="1" stop-color="#f6b48a"/></linearGradient></defs>
+<rect width="1200" height="1140" fill="url(#g)"/>
+<circle cx="453" cy="1000" r="120" fill="#000" opacity="0.08"/><circle cx="512" cy="492" r="261" fill="#fff" opacity="0.1"/><circle cx="196" cy="968" r="121" fill="#000" opacity="0.08"/><circle cx="7" cy="368" r="319" fill="#fff" opacity="0.1"/><circle cx="550" cy="781" r="159" fill="#000" opacity="0.08"/><circle cx="272" cy="316" r="158" fill="#fff" opacity="0.1"/><path d="M0 820 C 200 731, 420 721, 620 755 S 1000 760, 1200 817 L1200 1140 L0 1140 Z" fill="#000" opacity="0.12"/>
+<text x="600" y="600" font-size="300" text-anchor="middle" dominant-baseline="middle">🎃</text>
+<text x="600" y="1010" font-size="54" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" font-weight="600" fill="#fff" fill-opacity="0.92" text-anchor="middle">Poppy Hill Pumpkin Patch</text>
+<text x="600" y="1070" font-size="30" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" fill="#fff" fill-opacity="0.7" text-anchor="middle">Half Moon Bay · 示意圖（假資料）</text>
+</svg>

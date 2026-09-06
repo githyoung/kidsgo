@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1140" width="1200" height="1140">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b5fb5"/><stop offset="1" stop-color="#aeb0e6"/></linearGradient></defs>
+<rect width="1200" height="1140" fill="url(#g)"/>
+<circle cx="994" cy="21" r="274" fill="#000" opacity="0.08"/><circle cx="1181" cy="281" r="200" fill="#fff" opacity="0.1"/><circle cx="733" cy="519" r="175" fill="#000" opacity="0.08"/><circle cx="320" cy="1077" r="238" fill="#fff" opacity="0.1"/><circle cx="158" cy="189" r="314" fill="#000" opacity="0.08"/><circle cx="115" cy="338" r="226" fill="#fff" opacity="0.1"/><path d="M0 820 C 200 700, 420 711, 620 753 S 1000 733, 1200 776 L1200 1140 L0 1140 Z" fill="#000" opacity="0.12"/>
+<text x="600" y="600" font-size="300" text-anchor="middle" dominant-baseline="middle">🎨</text>
+<text x="600" y="1010" font-size="54" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" font-weight="600" fill="#fff" fill-opacity="0.92" text-anchor="middle">Silver Lake Discovery Museum</text>
+<text x="600" y="1070" font-size="30" font-family="Plus Jakarta Sans, PingFang TC, Noto Sans TC, sans-serif" fill="#fff" fill-opacity="0.7" text-anchor="middle">Berkeley · 示意圖（假資料）</text>
+</svg>
